@@ -87,6 +87,7 @@
             this.ArrowLabel.Size = new System.Drawing.Size(34, 24);
             this.ArrowLabel.TabIndex = 4;
             this.ArrowLabel.Text = "→";
+            this.ArrowLabel.DoubleClick += new System.EventHandler(this.ArrowLabel_DoubleClick);
             // 
             // ProcessIdButton
             // 

@@ -8,9 +8,12 @@ using System.Text;
 using System.Windows.Forms;
 using System.Diagnostics;
 using System.Threading;
+using System.IO;
+using System.Runtime.InteropServices;
 
-using PID;
 using emerge;
+using PID;
+using trayset;
 
 namespace MemoryFree
 {    
@@ -159,6 +162,12 @@ namespace MemoryFree
             {
                 AfterBox.Text = "物理空きあふたー\r\n" + MemF.NextValue() + " MB";
             }
+        }
+
+        private void ArrowLabel_DoubleClick(object sender, EventArgs e)
+        {
+            TrayControl frmTrayControl = new TrayControl();
+            frmTrayControl.ShowDialog();
         }
     }
 }

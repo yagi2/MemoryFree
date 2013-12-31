@@ -8,7 +8,6 @@ using System.Text;
 using System.Windows.Forms;
 
 using MemoryFree;
-using PID;
 
 namespace emerge
 {
