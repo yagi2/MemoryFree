@@ -42,7 +42,7 @@
             this.ReturnButton.TabIndex = 0;
             this.ReturnButton.Text = "OK";
             this.ReturnButton.UseVisualStyleBackColor = true;
-            this.ReturnButton.Click += new System.EventHandler(this.button1_Click);
+            this.ReturnButton.Click += new System.EventHandler(this.ReturnButton_Click);
             // 
             // IntroLabel
             // 

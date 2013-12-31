@@ -23,7 +23,7 @@ namespace MemoryFree
             InitializeComponent();
         }
 
-        private void button1_Click_1(object sender, EventArgs e)
+        private void FreeButton_Click(object sender, EventArgs e)
         {
             MemF = new System.Diagnostics.PerformanceCounter();
             MemF.CategoryName = "Memory";
@@ -65,7 +65,7 @@ namespace MemoryFree
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void ProcessIdButton_Click(object sender, EventArgs e)
         {
             ProcessID frmProcessID = new ProcessID();
 
@@ -113,7 +113,7 @@ namespace MemoryFree
             }
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void TaskNameButton_Click(object sender, EventArgs e)
         {
             TaskName frmTaskName = new TaskName();
 

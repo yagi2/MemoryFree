@@ -46,7 +46,7 @@
             this.FreeButton.TabIndex = 0;
             this.FreeButton.Text = "ぜんかいほー！";
             this.FreeButton.UseVisualStyleBackColor = true;
-            this.FreeButton.Click += new System.EventHandler(this.button1_Click_1);
+            this.FreeButton.Click += new System.EventHandler(this.FreeButton_Click);
             // 
             // TermBox
             // 
@@ -96,7 +96,7 @@
             this.ProcessIdButton.TabIndex = 5;
             this.ProcessIdButton.Text = "ぷろせすあいでぃー";
             this.ProcessIdButton.UseVisualStyleBackColor = true;
-            this.ProcessIdButton.Click += new System.EventHandler(this.button2_Click);
+            this.ProcessIdButton.Click += new System.EventHandler(this.ProcessIdButton_Click);
             // 
             // TaskNameButton
             // 
@@ -106,7 +106,7 @@
             this.TaskNameButton.TabIndex = 6;
             this.TaskNameButton.Text = "いめーじめい";
             this.TaskNameButton.UseVisualStyleBackColor = true;
-            this.TaskNameButton.Click += new System.EventHandler(this.button3_Click);
+            this.TaskNameButton.Click += new System.EventHandler(this.TaskNameButton_Click);
             // 
             // MainForm
             // 
