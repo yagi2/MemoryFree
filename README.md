@@ -1,5 +1,6 @@
 MemoryFree（めもりーかいほー）
 ==========
+![ScreenShot](/ScreenShots/ss_1.png)
 
 [Windows Server 2003 Resource Kit Tools](http://www.microsoft.com/en-us/download/details.aspx?displaylang=en&id=17657)に含まれるempty.exeを利用してWindowsPCのメモリを開放するサポートツールです。
 
@@ -25,6 +26,7 @@ empty.exeに関しての詳しい使い方は，[Microsoftの公式メモリ解�
 
 #### 隠し機能
 * 完全に自己満足ですので自己責任でご利用ください（メインフォームの矢印（→）をダブルクリック）
+![ScreenShot](/ScreenShots/ss_3.png)
 
 #### 実装予定
 * 隠し機能のフォームを呼んだ時点でディスクトレイが開いているのか開いているのかを取得してボタンのEnabledを設定する。
