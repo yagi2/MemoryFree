@@ -30,7 +30,7 @@ empty.exeに関しての詳しい使い方は，[Microsoftの公式メモリ解�
 
 #### 実装予定
 <s>隠し機能のフォームを呼んだ時点でディスクトレイが開いているのか開いているのかを取得してボタンのEnabledを設定する。</s>
-* 機能そのまま見た目大幅変更したWPFアプリでリニューアルしました [[https://github.com/yagi2/MemoryReleaser][MemoryReleaser]]
+* 機能そのまま見た目大幅変更したWPFアプリでリニューアルしました [MemoryReleaser](https://github.com/yagi2/MemoryReleaser)
 
 #### ライセンス
 * MIT License
